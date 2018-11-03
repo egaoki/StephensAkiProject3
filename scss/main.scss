@@ -1,0 +1,148 @@
+@import '_base';
+
+.container{
+  width: 75rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.padded{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.row{
+  display: flex;
+  }
+
+.navbar{
+  background-color: #2E2E39;
+  padding: 1.25rem 0rem;
+  padding-left: 90rem;
+
+    .row{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a{
+      font-size: 2rem;
+      color: white;
+      text-decoration: none;
+    }
+
+    .links{
+      a{
+        font-size: 1.6rem;
+        margin-left: 2.5rem;
+
+        &:hover {
+          color: #B56B85;
+        }
+      }
+    }
+}
+.hero{
+  background-image: url("../img/need.png");
+	height: 75rem;
+	width: 100%;
+	background-size: cover;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+
+  #title{
+    font-size: 7rem;
+		color: #FFFFFF;
+		font-weight: bold;
+		text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  #headingDescription{
+		color: #FFFFFF;
+		font-weight: bold;
+		text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.info {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+  #about {
+    color: #B56B85;
+		text-align: center;
+		padding-top: 2rem;
+		font-weight: bold;
+    font-size: 3rem;
+		padding-bottom: 2rem;
+	}
+
+  p {
+    color: #2E2E39;
+    margin: 0 auto;
+		width: 70rem;
+		max-width: 90%;
+		text-align: center;
+  }
+}
+
+.join {
+	// height: 18rem;
+  padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: #e5e5e5e5;
+	color: black;
+	text-align: center;
+
+  #infoTitle {
+		text-align: center;
+		padding-top: 2rem;
+		font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+
+	}
+  .bullet {
+		list-style-position: inside;
+		display: inline-block;
+		text-align: left;
+		padding-left: .8rem;
+  }
+  ul {
+    padding-left: 0;
+  }
+}
+
+
+
+.footer{
+  background-color: #2E2E39;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+
+  .row {
+      display: flex;
+      justify-content: space-between;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    //font-size: 2rem;
+    &:hover {
+      color: #B56B85;
+  }
+  }
+  i{
+    color: white;
+    margin-right: 5rem;
+    &:hover {
+      color: #B56B85;
+  }
+}
+}
